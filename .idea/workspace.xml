@@ -27,12 +27,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="729db9e4-c570-4503-8cf5-d17a27216442" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/addStation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/delStation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/displayStation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kajang Line/kajangLine.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kelana Jaya Line/stationsLL.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kajangLine.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stationsLL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stationsLL.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/railwayStation_DSA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/railwayStation_DSA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,8 @@
     &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/VICTUS/railwayStation_DSA&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -100,7 +105,8 @@
       <workItem from="1752212276191" duration="825000" />
       <workItem from="1752213632429" duration="21000" />
       <workItem from="1752213720092" duration="35000" />
-      <workItem from="1752213768604" duration="2000" />
+      <workItem from="1752213768604" duration="726000" />
+      <workItem from="1752214518342" duration="2000" />
     </task>
     <servers />
   </component>
@@ -111,16 +117,5 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
