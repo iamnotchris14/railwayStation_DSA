@@ -4,28 +4,40 @@
 
 #ifndef LINES_H
 #define LINES_H
+
 #include <string>
 using namespace std;
-//array size for stations
+
+// array size for stations
 const int MAX_STATIONS = 50;
-//declaring station structure
-struct {
+const int INF = 9999;  // For shortest path use
+
+// declare Station structure
+struct Station {
     string name;
-    int index;
+    int index; // unique index used for adjacency matrix
 };
-//declaring line structure
+
+// declare Line structure
 struct Line {
     string lineName;
     Station stations[MAX_STATIONS];
     int stationCount;
 };
-//declare lines
+
+// declare all lines
 extern Line putrajayaLine;
 extern Line kajangLine;
-extern Line monorialLine;
+extern Line monorailLine;
 
-//function for declaring arrays of stations later (can either write in here or in another file)
+// adjacency matrix for all stations combined
+extern int adjMatrix[MAX_STATIONS][MAX_STATIONS];
+
+// map station index to name (manually created)
+extern string stationNames[MAX_STATIONS];
+extern int stationCount;
+
+// function to initialize all lines and connections
 void initializeLines();
-
 
 #endif //LINES_H
