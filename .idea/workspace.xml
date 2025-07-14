@@ -27,12 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="729db9e4-c570-4503-8cf5-d17a27216442" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CodeNexus_RailwaySystem/lines.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeNexus_RailwaySystem/lines.h" beforeDir="false" afterPath="$PROJECT_DIR$/CodeNexus_RailwaySystem/lines.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeNexus_RailwaySystem/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodeNexus_RailwaySystem/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +129,7 @@
       <workItem from="1752371396861" duration="268000" />
       <workItem from="1752371702363" duration="182000" />
       <workItem from="1752371896911" duration="2869000" />
-      <workItem from="1752455408326" duration="5139000" />
+      <workItem from="1752455408326" duration="6428000" />
     </task>
     <servers />
   </component>
