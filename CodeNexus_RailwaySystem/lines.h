@@ -13,7 +13,10 @@ const int INF = 9999;
 struct Station {
     string name;
     int index;
+    string lines[3]; // max 3 lines per station
+    int lineCount;
 };
+
 
 struct Line {
     string lineName;
