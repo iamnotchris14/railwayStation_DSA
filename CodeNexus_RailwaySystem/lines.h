@@ -1,43 +1,40 @@
-//
-// Created by Christopher Lee Jia Yung on 12/07/2025.
-//
-
+// lines.h
 #ifndef LINES_H
 #define LINES_H
 
 #include <string>
 using namespace std;
 
-// array size for stations
+// Constants
 const int MAX_STATIONS = 50;
-const int INF = 9999;  // For shortest path use
+const int INF = 9999;
 
-// declare Station structure
+// Structures
 struct Station {
     string name;
-    int index; // unique index used for adjacency matrix
+    int index;
 };
 
-// declare Line structure
 struct Line {
     string lineName;
     Station stations[MAX_STATIONS];
     int stationCount;
 };
 
-// declare all lines
+// Extern global variables
 extern Line putrajayaLine;
 extern Line kajangLine;
 extern Line monorailLine;
 
-// adjacency matrix for all stations combined
 extern int adjMatrix[MAX_STATIONS][MAX_STATIONS];
-
-// map station index to name (manually created)
 extern string stationNames[MAX_STATIONS];
 extern int stationCount;
 
-// function to initialize all lines and connections
+// Function declarations
+int getStationIndex(string name);
+void addEdge(string from, string to, int weight);
 void initializeLines();
+// void printStations();
+// void printAdjMatrix();
 
-#endif //LINES_H
+#endif // LINES_H

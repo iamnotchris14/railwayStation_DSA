@@ -3,4 +3,6 @@ project(railwayStation_DSA)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(railwayStation_DSA main.cpp)
+add_executable(railwayStation_DSA main.cpp
+        CodeNexus_RailwaySystem/test.cpp
+        CodeNexus_RailwaySystem/display.cpp)
