@@ -1,26 +1,15 @@
 //
 // Created by Christopher Lee Jia Yung on 12/07/2025.
 //
-#include "putrajayaLine.h"
 #include <iostream>
+#include "lines.h"
 using namespace std;
 
-int main()
-{
-    initializePutrajayaLine();
-    cout << "Putrajaya Line: " << endl;
+int main() {
+    initializeLines();
 
-    // display
-    for (int i = 0; i < putrajayaLine.stationsCount; ++i) {
-        cout << putrajayaLine.stations[i].name;
+    // algorithm and user input
 
-        if (i < putrajayaLine.stationsCount - 1) {
-            int fromIndex = putrajayaLine.stations[i].index;
-            int toIndex = putrajayaLine.stations[i + 1].index;
-            int travelTime = graph[fromIndex][toIndex];
-
-            cout << " -" << travelTime << "min-> ";
-        }
-    }
-    cout << endl;
+    return 0;
 }
+
