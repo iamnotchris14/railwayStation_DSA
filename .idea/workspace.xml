@@ -27,12 +27,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="729db9e4-c570-4503-8cf5-d17a27216442" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CodeNexus_RailwaySystem/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeNexus_RailwaySystem/putrajayaLine.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeNexus_RailwaySystem/lines.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodeNexus_RailwaySystem/lines.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeNexus_RailwaySystem/lines.h" beforeDir="false" afterPath="$PROJECT_DIR$/CodeNexus_RailwaySystem/lines.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeNexus_RailwaySystem/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodeNexus_RailwaySystem/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kajangLine.exe" beforeDir="false" afterPath="$PROJECT_DIR$/kajangLine.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +43,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/CodeNexus_RailwaySystem/display.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CodeNexus_RailwaySystem/lines.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CodeNexus_RailwaySystem/lines.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/christopherleejiayung/Desktop/railwayStation_DSA/CodeNexus_RailwaySystem/main.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/christopherleejiayung/Desktop/railwayStation_DSA/CodeNexus_RailwaySystem/main.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodeNexus_RailwaySystem/lines.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodeNexus_RailwaySystem/lines.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodeNexus_RailwaySystem/main.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Functions/addStation.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Functions/delStation.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Functions/displayStation.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Kajang Line/kajangLine.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Kelana Jaya Line/stationsLL.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sample.cpp" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectApplicationVersion">
@@ -73,6 +72,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;C/C++ File.KajangLine.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.railwayStation_DSA.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
@@ -84,7 +84,7 @@
     &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/VICTUS/railwayStation_DSA&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -96,9 +96,21 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KajangLine" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="railwayStation_DSA" TARGET_NAME="KajangLine" CONFIG_NAME="KajangLine">
+      <option name="sourceFile" value="C:\Users\HASHIKA KESHREEN\OneDrive\Desktop\railwayStation_DSA\Kajang Line\kajangLine.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KajangLine" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="railwayStation_DSA" TARGET_NAME="KajangLine" CONFIG_NAME="KajangLine">
+      <option name="sourceFile" value="C:\Users\HASHIKA KESHREEN\OneDrive\Desktop\railwayStation_DSA\Kajang Line\kajangLine.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -114,6 +126,7 @@
       <workItem from="1752213720092" duration="35000" />
       <workItem from="1752213768604" duration="726000" />
       <workItem from="1752214518342" duration="2000" />
+      <workItem from="1752560167772" duration="3000" />
     </task>
     <servers />
   </component>
