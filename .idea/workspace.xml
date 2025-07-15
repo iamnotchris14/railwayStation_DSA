@@ -27,7 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="729db9e4-c570-4503-8cf5-d17a27216442" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CodeNexus_RailwaySystem/lines.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodeNexus_RailwaySystem/main.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Functions/addStation.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Functions/delStation.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Functions/displayStation.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -123,6 +124,7 @@
       <workItem from="1752504532921" duration="6000" />
       <workItem from="1752507351138" duration="734000" />
       <workItem from="1752554325222" duration="2000" />
+      <workItem from="1752558237977" duration="1000" />
     </task>
     <servers />
   </component>
